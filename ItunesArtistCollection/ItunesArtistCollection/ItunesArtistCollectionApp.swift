@@ -11,7 +11,7 @@ import SwiftUI
 struct ItunesArtistCollectionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ArtistCollectionListView()
         }
     }
 }
