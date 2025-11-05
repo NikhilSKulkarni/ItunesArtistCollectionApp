@@ -15,7 +15,7 @@ struct ArtistCollection: Codable, Hashable {
     let trackId: Int
     let trackName: String
     let collectionName: String
-    let albumThumbnailUrl: URL?
+    let artworkUrl100: String
     
     enum codingKeys: String, CodingKey {
         case trackId, trackName, collectionName
