@@ -43,7 +43,7 @@ struct ArtistCollectionListView: View {
                                             EmptyView()
                                         }
                                     }
-                                    
+                                    //Collection Row
                                     VStack(alignment: .leading) {
                                         Text(track.trackName)
                                             .foregroundColor(.primary)
